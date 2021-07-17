@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="watermelon" verbose="0" junit="false" parallel="false" configfailurepolicy="skip" thread-count="5" skipfailedinvocationcounts="false" data-provider-thread-count="10">
+
+
+    <test name="GetApiTest" junit="false" skipfailedinvocationcounts="false" preserve-order="true">
+        <classes>
+            <class name="com.qa.test.GetApiTest"/>
+        </classes>
+    </test>
+
+    <test name="PostApiTest" junit="false" skipfailedinvocationcounts="false" preserve-order="true">
+        <classes>
+            <class name="com.qa.test.PostApiTest"/>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+    </listeners>
+</suite>
