@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Package Test Suit]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test parallel="classes" name="Package Test(failed)">
+    <classes>
+      <class name="com.qa.test.reqres.LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="clean"/>
+          <include name="LoginTest" invocation-numbers="0"/>
+          <include name="testStart"/>
+        </methods>
+      </class> <!-- com.qa.test.reqres.LoginTest -->
+      <class name="com.qa.test.reqres.GetListUsersTest">
+        <methods>
+          <include name="getListUsersTest" invocation-numbers="0"/>
+          <include name="testStart"/>
+          <include name="clean"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.test.reqres.GetListUsersTest -->
+    </classes>
+  </test> <!-- Package Test(failed) -->
+</suite> <!-- Failed suite [Package Test Suit] -->

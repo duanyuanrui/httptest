@@ -3,7 +3,7 @@ package com.qa.util;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-public class DBUtil {
+public class DBUtil{
 
     /*
     连接数据库

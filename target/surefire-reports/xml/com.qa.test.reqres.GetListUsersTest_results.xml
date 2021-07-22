@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Package Test"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="0.474">
+  <properties />
+            <testcase name="getListUsersTest" time="0.474" classname="com.qa.test.reqres.GetListUsersTest">
+                <failure type="org.apache.http.client.ClientProtocolException"
+                  message="(null)"
+              >
+<![CDATA[org.apache.http.client.ClientProtocolException
+  org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:187)
+  org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+  org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+  com.qa.util.HttpClientUtils.get(HttpClientUtils.java:27)
+  com.qa.test.reqres.GetListUsersTest.getListUsersTest(GetListUsersTest.java:35)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:564)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+  java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+  java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: org.apache.http.ProtocolException: Target host is not specified
+  org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:71)
+  org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:125)
+  org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+  org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+  org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+  com.qa.util.HttpClientUtils.get(HttpClientUtils.java:27)
+  com.qa.test.reqres.GetListUsersTest.getListUsersTest(GetListUsersTest.java:35)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:564)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+  java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+  java.base/java.lang.Thread.run(Thread.java:844)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

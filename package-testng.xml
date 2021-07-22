@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Package Test Suit" verbose="0" junit="false" parallel="classes" thread-count="5" configfailurepolicy="skip"  skipfailedinvocationcounts="false" data-provider-thread-count="10">
+
+
+    <test name="Package Test">
+        <packages>
+            <package name="com.qa.test.reqres" />
+        </packages>
+    </test>
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+    </listeners>
+</suite>
