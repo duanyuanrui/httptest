@@ -2,6 +2,7 @@ package com.qa.base;
 
 import com.qa.util.DBUtil;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.util.Properties;
 
@@ -16,10 +17,10 @@ public class TestBase {
     static {
         try{
 
-            String userDir = System.getProperty("user.dir");
-            //读取配置文件
+            File file = new File(Thread.currentThread().getContextClassLoader().getResource("config.properties").getFile());            //读取配置文件
+            //File file = new File("src/test/resources/config.properties");
             prop = new Properties();
-            FileInputStream fis = new FileInputStream(userDir+"/src/test/resources/config.properties");
+            FileInputStream fis = new FileInputStream(file);
             prop.load(fis);
 
             //获取主站地址

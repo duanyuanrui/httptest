@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Package Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jul 22 12:39:02 CST 2021</td>
+<td>Started on:</td><td>Sat Jul 24 16:52:39 CST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (533 ms)</td>
+<tr><td>Total time:</td><td>2 seconds (2071 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,101 +67,23 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.qa.test.reqres.LoginTest.LoginTest()'><b>LoginTest</b><br>Test class: com.qa.test.reqres.LoginTest<br>Parameters: eve.holt@reqres.in, cityslicka, 200, QpwL5tke4Pnpja7X4</td>
-<td><div><pre>org.apache.http.client.ClientProtocolException
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:187)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
-	at com.qa.util.HttpClientUtils.post(HttpClientUtils.java:60)
-	at com.qa.test.reqres.LoginTest.LoginTest(LoginTest.java:42)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-Caused by: org.apache.http.ProtocolException: Target host is not specified
-	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:71)
-	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:125)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	... 17 more
-... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1869556367", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1869556367'><pre>org.apache.http.client.ClientProtocolException
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:187)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
-	at com.qa.util.HttpClientUtils.post(HttpClientUtils.java:60)
-	at com.qa.test.reqres.LoginTest.LoginTest(LoginTest.java:42)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-Caused by: org.apache.http.ProtocolException: Target host is not specified
-	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:71)
-	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:125)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	... 17 more
-</pre></div></td>
-<td>0</td>
-<td>com.qa.test.reqres.LoginTest@4961f6af</td></tr>
-<tr>
 <td title='com.qa.test.reqres.GetListUsersTest.getListUsersTest()'><b>getListUsersTest</b><br>Test class: com.qa.test.reqres.GetListUsersTest<br>Parameters: 200, 2</td>
-<td><div><pre>org.apache.http.client.ClientProtocolException
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:187)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
-	at com.qa.util.HttpClientUtils.get(HttpClientUtils.java:27)
-	at com.qa.test.reqres.GetListUsersTest.getListUsersTest(GetListUsersTest.java:35)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-Caused by: org.apache.http.ProtocolException: Target host is not specified
-	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:71)
-	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:125)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	... 17 more
-... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1742336968", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1742336968'><pre>org.apache.http.client.ClientProtocolException
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:187)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
-	at com.qa.util.HttpClientUtils.get(HttpClientUtils.java:27)
-	at com.qa.test.reqres.GetListUsersTest.getListUsersTest(GetListUsersTest.java:35)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-Caused by: org.apache.http.ProtocolException: Target host is not specified
-	at org.apache.http.impl.conn.DefaultRoutePlanner.determineRoute(DefaultRoutePlanner.java:71)
-	at org.apache.http.impl.client.InternalHttpClient.determineRoute(InternalHttpClient.java:125)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
-	... 17 more
-</pre></div></td>
-<td>0</td>
+<td></td>
+<td>1</td>
 <td>com.qa.test.reqres.GetListUsersTest@394df057</td></tr>
+<tr>
+<td title='com.qa.test.reqres.LoginTest.loginTest()'><b>loginTest</b><br>Test class: com.qa.test.reqres.LoginTest<br>Parameters: eve.holt@reqres.in, cityslicka, 200, QpwL5tke4Pnpja7X4</td>
+<td></td>
+<td>1</td>
+<td>com.qa.test.reqres.LoginTest@4961f6af</td></tr>
 </table><p>
 </body>
 </html>

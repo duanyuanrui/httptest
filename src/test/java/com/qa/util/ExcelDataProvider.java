@@ -26,9 +26,12 @@ public class ExcelDataProvider implements Iterator<Object[]> {
                 columnNum=4;
             }
 
-			File directory = new File(".");
-			this.book = Workbook.getWorkbook(new File(directory
-					.getAbsolutePath() + "/src/test/resources/DataProvider.xls"));
+			File file = new File(Thread.currentThread().getContextClassLoader().getResource("DataProvider.xls").getFile());
+			//File file = new File("src/test/resources/DataProvider.xls");
+			this.book = Workbook.getWorkbook(file);
+//			File directory = new File(".");
+//			this.book = Workbook.getWorkbook(new File(directory
+//					.getAbsolutePath() + "/src/DataProvider.xls"));
 			this.sheet = book.getSheet(methodname);
 			System.out.println("methodname= " + methodname);
 			this.rowNum = sheet.getRows();

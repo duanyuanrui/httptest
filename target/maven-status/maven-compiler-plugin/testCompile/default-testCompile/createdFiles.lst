@@ -1,4 +1,5 @@
 com/qa/util/RunnableGetUtil.class
+com/qa/util/Dataprovider.class
 com/qa/base/TestBase.class
 com/qa/test/yongyou/UpdatePropertyFileTest.class
 com/qa/test/reqres/LoginTest.class
@@ -9,5 +10,6 @@ com/qa/test/reqres/GetListUsersTest.class
 com/qa/test/yongyou/AddPropertyFileTest.class
 com/qa/util/RunnablePostUtil.class
 com/qa/thread/GetThreadTest.class
+com/qa/util/ExcelDataProvider.class
 com/qa/util/HttpClientUtils.class
 com/qa/thread/PostThreadTest.class
