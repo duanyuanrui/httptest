@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.819">
+           time="69.456">
   <properties />
   
   
-            <testcase name="loginTest" time="1.819" classname="com.qa.test.reqres.LoginTest" />
+            <testcase name="loginTest" time="69.456" classname="com.qa.test.reqres.LoginTest" />
       
 </testsuite>

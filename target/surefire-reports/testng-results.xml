@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-24T08:52:39Z" name="Package Test Suit" finished-at="2021-07-24T08:52:42Z" duration-ms="2071">
+  <suite started-at="2021-07-25T02:20:00Z" name="Package Test Suit" finished-at="2021-07-25T02:21:20Z" duration-ms="79984">
     <groups>
     </groups>
-    <test started-at="2021-07-24T08:52:39Z" name="Package Test" finished-at="2021-07-24T08:52:42Z" duration-ms="2071">
+    <test started-at="2021-07-25T02:20:00Z" name="Package Test" finished-at="2021-07-25T02:21:20Z" duration-ms="79984">
       <class name="com.qa.test.reqres.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.test.reqres.LoginTest@4961f6af]" started-at="2021-07-24T16:52:39Z" name="setUp" finished-at="2021-07-24T16:52:39Z" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.test.reqres.LoginTest@4961f6af]" started-at="2021-07-25T10:20:00Z" name="setUp" finished-at="2021-07-25T10:20:00Z" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.LoginTest@4961f6af]" started-at="2021-07-24T16:52:40Z" name="testStart" finished-at="2021-07-24T16:52:40Z" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.LoginTest@4961f6af]" started-at="2021-07-25T10:20:00Z" name="testStart" finished-at="2021-07-25T10:20:00Z" duration-ms="22" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStart -->
-        <test-method is-config="true" signature="testStop(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.LoginTest@4961f6af]" started-at="2021-07-24T16:52:40Z" name="testStop" finished-at="2021-07-24T16:52:40Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="testStop(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.LoginTest@4961f6af]" started-at="2021-07-25T10:20:00Z" name="testStop" finished-at="2021-07-25T10:20:00Z" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStop -->
-        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.reqres.LoginTest@4961f6af]" started-at="2021-07-24T16:52:40Z" name="loginTest" data-provider="dp" finished-at="2021-07-24T16:52:41Z" duration-ms="1819" status="PASS">
+        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.reqres.LoginTest@4961f6af]" started-at="2021-07-25T10:20:00Z" name="loginTest" data-provider="dp" finished-at="2021-07-25T10:21:09Z" duration-ms="69456" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,17 +59,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="clean()[pri:0, instance:com.qa.test.reqres.LoginTest@4961f6af]" started-at="2021-07-24T16:52:42Z" name="clean" finished-at="2021-07-24T16:52:42Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="clean()[pri:0, instance:com.qa.test.reqres.LoginTest@4961f6af]" started-at="2021-07-25T10:21:10Z" name="clean" finished-at="2021-07-25T10:21:10Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clean -->
       </class> <!-- com.qa.test.reqres.LoginTest -->
       <class name="com.qa.test.reqres.GetListUsersTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-24T16:52:39Z" name="setUp" finished-at="2021-07-24T16:52:39Z" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:20:00Z" name="setUp" finished-at="2021-07-25T10:20:00Z" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-24T16:52:40Z" name="testStart" finished-at="2021-07-24T16:52:40Z" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:20:00Z" name="testStart" finished-at="2021-07-25T10:20:00Z" duration-ms="22" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -80,7 +80,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStart -->
-        <test-method is-config="true" signature="testStop(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-24T16:52:40Z" name="testStop" finished-at="2021-07-24T16:52:40Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:20:00Z" name="testStart" finished-at="2021-07-25T10:20:00Z" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method is-config="true" signature="testStop(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:20:00Z" name="testStop" finished-at="2021-07-25T10:20:00Z" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -91,7 +102,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStop -->
-        <test-method signature="getListUsersTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-24T16:52:40Z" name="getListUsersTest" data-provider="dp" finished-at="2021-07-24T16:52:41Z" duration-ms="1523" status="PASS">
+        <test-method signature="getListUsersTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:20:00Z" name="getListUsersTest" data-provider="dp" finished-at="2021-07-25T10:21:09Z" duration-ms="69157" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -107,7 +118,718 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getListUsersTest -->
-        <test-method is-config="true" signature="clean()[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-24T16:52:41Z" name="clean" finished-at="2021-07-24T16:52:41Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="testStop(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:20:00Z" name="testStop" finished-at="2021-07-25T10:20:00Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStop -->
+        <test-method signature="getListUsersTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:20:00Z" name="getListUsersTest" data-provider="dp" finished-at="2021-07-25T10:21:09Z" duration-ms="69153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListUsersTest -->
+        <test-method is-config="true" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:09Z" name="testStart" finished-at="2021-07-25T10:21:09Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method is-config="true" signature="testStop(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:09Z" name="testStop" finished-at="2021-07-25T10:21:09Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStop -->
+        <test-method signature="getListUsersTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:09Z" name="getListUsersTest" data-provider="dp" finished-at="2021-07-25T10:21:10Z" duration-ms="864" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListUsersTest -->
+        <test-method is-config="true" signature="testStop(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:10Z" name="testStop" finished-at="2021-07-25T10:21:10Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStop -->
+        <test-method is-config="true" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:10Z" name="testStart" finished-at="2021-07-25T10:21:10Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method signature="getListUsersTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:10Z" name="getListUsersTest" data-provider="dp" finished-at="2021-07-25T10:21:11Z" duration-ms="1065" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListUsersTest -->
+        <test-method is-config="true" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:10Z" name="testStart" finished-at="2021-07-25T10:21:10Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method is-config="true" signature="testStop(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:10Z" name="testStop" finished-at="2021-07-25T10:21:10Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStop -->
+        <test-method signature="getListUsersTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:10Z" name="getListUsersTest" data-provider="dp" finished-at="2021-07-25T10:21:11Z" duration-ms="949" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListUsersTest -->
+        <test-method is-config="true" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:11Z" name="testStart" finished-at="2021-07-25T10:21:11Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method signature="getListUsersTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:11Z" name="getListUsersTest" data-provider="dp" finished-at="2021-07-25T10:21:12Z" duration-ms="891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListUsersTest -->
+        <test-method is-config="true" signature="testStop(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:11Z" name="testStop" finished-at="2021-07-25T10:21:11Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStop -->
+        <test-method is-config="true" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:11Z" name="testStart" finished-at="2021-07-25T10:21:11Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method is-config="true" signature="testStop(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:11Z" name="testStop" finished-at="2021-07-25T10:21:11Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStop -->
+        <test-method signature="getListUsersTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:11Z" name="getListUsersTest" data-provider="dp" finished-at="2021-07-25T10:21:12Z" duration-ms="871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListUsersTest -->
+        <test-method is-config="true" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:12Z" name="testStart" finished-at="2021-07-25T10:21:12Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method is-config="true" signature="testStop(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:12Z" name="testStop" finished-at="2021-07-25T10:21:12Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStop -->
+        <test-method signature="getListUsersTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:12Z" name="getListUsersTest" data-provider="dp" finished-at="2021-07-25T10:21:13Z" duration-ms="891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListUsersTest -->
+        <test-method is-config="true" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:12Z" name="testStart" finished-at="2021-07-25T10:21:12Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method is-config="true" signature="testStop(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:12Z" name="testStop" finished-at="2021-07-25T10:21:12Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStop -->
+        <test-method signature="getListUsersTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:12Z" name="getListUsersTest" data-provider="dp" finished-at="2021-07-25T10:21:13Z" duration-ms="991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListUsersTest -->
+        <test-method is-config="true" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:13Z" name="testStart" finished-at="2021-07-25T10:21:13Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method is-config="true" signature="testStop(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:13Z" name="testStop" finished-at="2021-07-25T10:21:13Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStop -->
+        <test-method signature="getListUsersTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:13Z" name="getListUsersTest" data-provider="dp" finished-at="2021-07-25T10:21:14Z" duration-ms="829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListUsersTest -->
+        <test-method is-config="true" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:14Z" name="testStart" finished-at="2021-07-25T10:21:14Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method is-config="true" signature="testStop(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:14Z" name="testStop" finished-at="2021-07-25T10:21:14Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStop -->
+        <test-method signature="getListUsersTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:14Z" name="getListUsersTest" data-provider="dp" finished-at="2021-07-25T10:21:14Z" duration-ms="790" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListUsersTest -->
+        <test-method is-config="true" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:14Z" name="testStart" finished-at="2021-07-25T10:21:14Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method is-config="true" signature="testStop(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:14Z" name="testStop" finished-at="2021-07-25T10:21:14Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStop -->
+        <test-method signature="getListUsersTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:14Z" name="getListUsersTest" data-provider="dp" finished-at="2021-07-25T10:21:15Z" duration-ms="796" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListUsersTest -->
+        <test-method is-config="true" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:15Z" name="testStart" finished-at="2021-07-25T10:21:15Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method is-config="true" signature="testStop(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:15Z" name="testStop" finished-at="2021-07-25T10:21:15Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStop -->
+        <test-method signature="getListUsersTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:15Z" name="getListUsersTest" data-provider="dp" finished-at="2021-07-25T10:21:15Z" duration-ms="836" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListUsersTest -->
+        <test-method signature="getListUsersTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:15Z" name="getListUsersTest" data-provider="dp" finished-at="2021-07-25T10:21:16Z" duration-ms="947" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListUsersTest -->
+        <test-method is-config="true" signature="testStop(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:15Z" name="testStop" finished-at="2021-07-25T10:21:15Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStop -->
+        <test-method is-config="true" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:15Z" name="testStart" finished-at="2021-07-25T10:21:15Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method is-config="true" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:16Z" name="testStart" finished-at="2021-07-25T10:21:16Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method signature="getListUsersTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:16Z" name="getListUsersTest" data-provider="dp" finished-at="2021-07-25T10:21:16Z" duration-ms="937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListUsersTest -->
+        <test-method is-config="true" signature="testStop(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:16Z" name="testStop" finished-at="2021-07-25T10:21:16Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStop -->
+        <test-method is-config="true" signature="testStop(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:16Z" name="testStop" finished-at="2021-07-25T10:21:16Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStop -->
+        <test-method is-config="true" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:16Z" name="testStart" finished-at="2021-07-25T10:21:16Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method signature="getListUsersTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:16Z" name="getListUsersTest" data-provider="dp" finished-at="2021-07-25T10:21:17Z" duration-ms="828" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListUsersTest -->
+        <test-method is-config="true" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:17Z" name="testStart" finished-at="2021-07-25T10:21:17Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method is-config="true" signature="testStop(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:17Z" name="testStop" finished-at="2021-07-25T10:21:17Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStop -->
+        <test-method signature="getListUsersTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:17Z" name="getListUsersTest" data-provider="dp" finished-at="2021-07-25T10:21:18Z" duration-ms="1218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListUsersTest -->
+        <test-method is-config="true" signature="testStop(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:18Z" name="testStop" finished-at="2021-07-25T10:21:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStop -->
+        <test-method is-config="true" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:18Z" name="testStart" finished-at="2021-07-25T10:21:18Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method signature="getListUsersTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:18Z" name="getListUsersTest" data-provider="dp" finished-at="2021-07-25T10:21:18Z" duration-ms="916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListUsersTest -->
+        <test-method is-config="true" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:19Z" name="testStart" finished-at="2021-07-25T10:21:19Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method is-config="true" signature="testStop(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:19Z" name="testStop" finished-at="2021-07-25T10:21:19Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStop -->
+        <test-method signature="getListUsersTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:19Z" name="getListUsersTest" data-provider="dp" finished-at="2021-07-25T10:21:20Z" duration-ms="822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListUsersTest -->
+        <test-method is-config="true" signature="testStart(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:19Z" name="testStart" finished-at="2021-07-25T10:21:19Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStart -->
+        <test-method signature="getListUsersTest(java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:19Z" name="getListUsersTest" data-provider="dp" finished-at="2021-07-25T10:21:20Z" duration-ms="865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListUsersTest -->
+        <test-method is-config="true" signature="testStop(java.lang.reflect.Method)[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:19Z" name="testStop" finished-at="2021-07-25T10:21:19Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.test.reqres.GetListUsersTest.getListUsersTest(java.lang.String,java.lang.String) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStop -->
+        <test-method is-config="true" signature="clean()[pri:0, instance:com.qa.test.reqres.GetListUsersTest@394df057]" started-at="2021-07-25T10:21:20Z" name="clean" finished-at="2021-07-25T10:21:20Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clean -->

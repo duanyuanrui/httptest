@@ -1,24 +1,48 @@
 package com.qa.util;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
+import java.sql.*;
 
 public class DBUtil{
 
-    /*
-    连接数据库
-     */
-    public Connection getCon(String jdbcName,String url,String user,String pass) throws Exception{
-        Class.forName(jdbcName);
-        Connection conn = DriverManager.getConnection(url,user,pass);
-        return conn;
+    static Connection connection = null;
+    static PreparedStatement preparedStatement = null;
+    static ResultSet resultSet = null;
+
+
+    public static Connection getConnection(String jdbcName,String url,String user,String pass) {
+        try {
+            Class.forName(jdbcName);
+            connection = (Connection)DriverManager.getConnection(url, user, pass);
+        } catch (Exception e) {
+            System.out.println("加载驱动失败!");
+            e.printStackTrace();
+        }
+        return connection;
     }
-    /*
-    关闭数据库
-     */
-    public void closeCon(Connection connection) throws Exception{
-        if(connection!=null){
-            connection.close();
+
+
+    public static void close(Connection connection, PreparedStatement preparedStatement, ResultSet resultSet) {
+        if(resultSet != null) {
+            try {
+                resultSet.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+        if(preparedStatement != null) {
+            try {
+                preparedStatement.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+        if(connection != null) {
+            try {
+                connection.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
     }
+
 }

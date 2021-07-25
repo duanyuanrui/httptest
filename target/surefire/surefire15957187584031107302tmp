@@ -1,5 +1,5 @@
 #surefire
-#Sat Jul 24 16:52:42 CST 2021
+#Sun Jul 25 10:21:20 CST 2021
 classPathUrl.4=/Users/wangge/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar
 testSuiteDefinitionTestSourceDirectory=/Users/wangge/IdeaProjects/HttpTest/src/test/java
 classPathUrl.5=/Users/wangge/.m2/repository/com/alibaba/fastjson/1.2.41/fastjson-1.2.41.jar
@@ -24,7 +24,7 @@ useManifestOnlyJar=true
 testSuiteXmlFiles0=/Users/wangge/IdeaProjects/HttpTest/package-testng.xml
 failures=0
 providerConfiguration=org.apache.maven.surefire.testng.TestNGProvider
-completedCount=2
+completedCount=21
 failIfNoTests=false
 classPathUrl.15=/Users/wangge/.m2/repository/com/google/inject/guice/3.0/guice-3.0.jar
 isTrimStackTrace=true

@@ -24,7 +24,7 @@ public class GetListUsersTest extends TestBase {
                 + method.getName()+"  start run>>>>>>>>>>>>>>>>");
     }
 
-    @Test(dataProvider = "dp", dataProviderClass = com.qa.util.Dataprovider.class)
+    @Test(dataProvider = "dp", dataProviderClass = com.qa.util.Dataprovider.class,invocationCount = 20,threadPoolSize=2)
     public void getListUsersTest(String  expectedHttpcode,String pageNum) throws IOException {
         System.out.println(url);
         CloseableHttpResponse closeableHttpResponse = httpClientUtils.get(url);

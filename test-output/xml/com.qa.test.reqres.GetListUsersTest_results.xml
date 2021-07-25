@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="3.769">
+           time="1.700">
   <properties />
   
   
-            <testcase name="getListUsersTest" time="3.769" classname="com.qa.test.reqres.GetListUsersTest" />
+            <testcase name="getListUsersTest" time="1.700" classname="com.qa.test.reqres.GetListUsersTest" />
       
 </testsuite>
